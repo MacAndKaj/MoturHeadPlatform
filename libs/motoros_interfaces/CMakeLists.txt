@@ -14,6 +14,7 @@ find_package(ament_cmake_ros REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(MSG_FILES
+    "msg/SetPlatformPwmValue.msg"
     "msg/SetPlatformSpeed.msg"
 )
 
